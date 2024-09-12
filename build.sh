@@ -10,5 +10,5 @@ export BUILD_HOSTNAME=crave && \
 source build/envsetup.sh && \
 # Build the ROM
 lunch aosp_ginkgo-ap2a-user && \
-# make installclean && \
+make installclean && \
 mka bacon
