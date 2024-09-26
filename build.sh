@@ -1,7 +1,7 @@
 rm -rf .repo/local_manifests/ && \
 # Clone local_manifests repository
 repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs --depth=1 && \
-git clone https://github.com/rishabh-j-23/local_manifests --depth 1 -b main .repo/local_manifests && \
+git clone https://github.com/rishabh-j-23/local_manifests --depth 1 -b ryzen-kernel .repo/local_manifests && \
 # Sync the repositories
 /opt/crave/resync.sh && \
 # Set up build environment
